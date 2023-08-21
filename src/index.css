@@ -1,0 +1,334 @@
+@import url("https://fonts.cdnfonts.com/css/gotham-pro");
+@font-face {
+  font-family: 'Gotham-Light';
+  src: local('n_para'), url(./fonts/gotham/GothamProNarrow-Medium.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Gotham-Light';
+  src: local('footer'), url(./fonts/gotham/Gotham-XLight.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Gotham-Light';
+  src: local('new'), url(./fonts/gotham/Gotham-Thin.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Gotham-Light';
+  src: local('foot'), url(./fonts/gotham/Gotham-Light.otf) format('truetype');
+}
+@import url('https://fonts.cdnfonts.com/css/gotham-pro');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#header a{
+  font-family: 'foot',sans-serif;
+}
+.HeaderLink{
+  height: 35px;
+  width: 150px;
+  background-color: rgb(247,188,88);
+  color: rgb(42,42,42);
+  font-size: small;
+  border: none;
+}
+.HeaderLink:hover{
+  background-color: transparent;
+  color: rgb(42,42,42);
+  border: 2px solid rgb(247,188,88);
+}
+
+
+
+.nav-link{
+  color: black;
+}
+
+
+
+/* -----------------About section--------------------------- */
+.about{
+  margin-top:50px;
+  background-color: hsl(0deg 0% 100%);
+}
+.about .history{
+  font-family: 'new', sans-serif;
+  letter-spacing: 2px;
+  font-size: 0.7rem;
+}
+.about img{
+  border:none;
+}
+.about h4{
+  font-size: larger;
+  font-weight: bold;
+}
+.about p{
+  font-size: 0.7rem;
+  font-family: 'new', sans-serif;
+}
+.about h3{
+  font-weight: lighter;
+}
+.about .btn_more{
+  height: 35px;
+  width: 150px;
+  background-color: rgb(247,188,88);
+  color: rgb(42,42,42);
+  font-size: small;
+  border: none;
+}
+.about .btn_more:hover{
+  background-color: transparent;
+  color: black;
+  border: 2px solid rgb(247,188,88);
+}
+.about .col-md-4{
+  margin-top: 50px;
+}
+
+
+/* ----------------------Services section-------------------------------- */
+.services img{
+  border:none;
+  background-color: hsl(0deg 0% 96%);
+}
+.services{
+  height: 350px;
+  margin-top:20px;
+  background-color: hsl(0deg 0% 96%);
+  transition: background-color 300ms;
+}
+.services h5{
+  margin-top: 50px;
+}
+.services p{
+  margin-bottom: 10px;
+  font-size: 0.7rem;
+  font-weight: 100;
+  font-family: 'new', sans-serif;
+  letter-spacing: 2px;
+}
+.col-md-2 {
+  position: relative;
+}
+
+.img-thumbnail {
+  display: block;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+
+}
+
+.col-md-2:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+/* --------------------------------News section------------------------------------- */
+.news{
+  height: 460px;
+  margin-top:20px;
+}
+.news .col-md-4{
+  margin-top: 25px;
+}
+
+.news h5{
+  margin-top: 30px;
+}
+.news .event{
+  letter-spacing: 1px;
+}
+.news p{
+  font-size: 0.7rem;
+  font-family: 'new', sans-serif;
+
+}
+
+.news .date1,.date2{
+  color:rgb(247,188,88);
+  font-weight: bold;
+  font-size: x-small;
+  margin-top: 8px;
+  margin-left: 15px;
+}
+.news .more{
+  font-weight: bold;
+  color: black;
+  font-size: x-small;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.news .sept14{
+  background-color: rgb(247,188,88);
+  text-align: center;
+  padding-top: 5px;
+  height: 60px;
+  width: 100%;
+  letter-spacing: 1px;
+  color: rgb(42,42,42);
+  font-size: 30px;
+}
+.news p .n_head1,.n_head2{
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 15px;
+}
+.n_head1{
+  margin-top: 20px;
+}
+.news p .para1,.para2{
+  font-size: 0.7rem;
+  margin-top: 1px;
+  padding-top: 0;
+  margin-left: 15px;
+  font-family: 'n_para', sans-serif;
+}
+
+.news .more:hover{
+  background: none;
+  color: blue;
+}
+.news p .n_head2{
+  margin-top: 20px;
+}
+
+.news img{
+  border:none; 
+  padding: 0;
+}
+/* ----------------------------------signup section---------------------------- */
+.signup{
+  background-color: hsl(0deg 0% 96%);
+}
+.signup h5{
+  margin-top: 60px;
+}
+.signup p{
+  font-size: x-small;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-family: 'new', sans-serif;
+  letter-spacing: 2px;
+}
+.signup p input{
+  height:35px;
+  width: 350px;
+  border: none;
+  padding-left: 15px;
+  font-weight: lighter;
+}
+.signup .btn_sub{
+  background-color: rgb(247,188,88);
+  width: 150px;
+  height: 35px;
+  border: none;
+  color: rgb(245,245,245);
+}
+.signup img{
+  padding: 15px;
+  margin: auto;
+  margin-top: 50px;
+  border:8px solid black;
+  background-color: hsl(0deg 0% 96%);
+}
+.signup{
+  margin-top:20px;
+  height: 370px;
+}
+/* --------------------------footer section-------------------------------------- */
+.footer{
+  cursor:pointer;
+  position:relative;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 170px;
+  background-color: #454545;
+  color: white;
+  margin: auto;
+}
+
+.footer h5{
+  cursor:pointer;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-align: left;
+  font-size: 18px;
+}
+.footer h6{
+  cursor:pointer;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-align: left;
+  font-size: 12px;
+}
+
+.footer .foot{
+  cursor:pointer;
+  margin-top: 16px;
+  font-size: 0.7rem;
+  margin-right: 20px;
+  text-align: left;
+  font-family: 'foot', sans-serif;
+}
+.footer a{
+  cursor:pointer;
+  color: rgb(245,245,245);
+  text-decoration: none;
+  border-bottom: 1px solid rgb(245,245,245);
+  margin-bottom: 15px;
+}
+.footer .col-md-2{
+  cursor:pointer;
+  text-align: left;
+}
+.footer .col-md-2 a{
+  cursor:pointer;
+  font-size: small;
+  padding: 0;
+}
+.footer a:hover{
+  cursor:pointer;
+  color:blue;
+  background: none;
+}
+.footer .conn{
+  cursor:pointer;
+  margin-top: 26px;
+  text-align: left;
+  font-size: small;
+  font-family: 'footer', sans-serif;
+}
+
+
+
+
+
+
+
+

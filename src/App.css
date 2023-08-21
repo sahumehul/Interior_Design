@@ -1,0 +1,16 @@
+body{
+  margin: 0px;
+  padding: 0px; 
+}
+
+a{
+  
+  font-family: 'foot',sans-serif;
+  font-size: 0.8rem;
+  color: rgba(71, 67, 67, 0.836);
+}
+
+a:hover{
+  background-color: rgb(247,188,88);
+  color: aliceblue;
+}
